@@ -1,28 +1,26 @@
-<template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<template lang="pug">
+  #app
+    b-navbar
+      b-navbar-brand CineStash
+      b-navbar-nav.nav
+        b-nav-item(to='/projects' exact exact-active-class="active") Projects
+        b-nav-item(to='/settings' exact exact-active-class="active") Settings
+    router-view.main
+
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
-}
-</script>
-
-<style>
+<style lang="scss">
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
 }
+
+#app > .nav {
+  flex-grow: 0;
+}
+
+#app > .main {
+  flex-grow: 1;
+}
+
 </style>
