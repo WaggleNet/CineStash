@@ -5,14 +5,14 @@ import Home from '../views/Home.vue'
 import ProjectListPage from '../components/ProjectList.vue'
 import ProjectViewPage from '../components/ProjectView.vue'
 import SettingsPage from '../components/Settings.vue'
+import CamerasPage from '../components/Cameras.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: Home
+    redirect: '/projects'
   },
   {
     path: '/projects',
@@ -25,9 +25,14 @@ const routes = [
     component: ProjectViewPage
   },
   {
+    path: '/cameras',
+    name: 'cameras',
+    component: CamerasPage
+  },
+  {
     path: '/settings',
     name: 'settings',
-    components: SettingsPage
+    component: SettingsPage
   }
 ]
 

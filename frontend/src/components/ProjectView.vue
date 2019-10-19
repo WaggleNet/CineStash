@@ -68,7 +68,7 @@ b-container(fluid style='height: 100%')
 </template>
 
 <style lang="sass" scoped>
-@import '@/wagglenet-theme.scss'
+@import '@/wagglenet-theme.sass'
 .stat-view
   display: flex
   width: 100%
@@ -85,12 +85,21 @@ b-container(fluid style='height: 100%')
 .image-list
   width: 100%
   overflow-x: auto
+  white-space: nowrap
   img
     display: inline-block
     height: 160px
     width: auto
     margin-right: 20px
     cursor: pointer
+
+.note
+    margin-bottom: 15px
+
+.note h3
+  font-size: 22px
+  text-transform: uppercase
+  color: $text-color-tame
 
 .take
   display: flex
@@ -134,43 +143,6 @@ b-container(fluid style='height: 100%')
       padding-bottom: 10px
       white-space: nowrap
       vertical-align: top
-
-
-.noborder
-  padding-left: 0
-  padding-right: 0
-
-.scroll-col
-  height: 100%
-  overflow-y: auto
-
-.splitter
-  border-left: 1px solid rgba(0, 0, 0, 0.125);
-  border-right: 1px solid rgba(0, 0, 0, 0.125);
-
-.btn svg
-  margin-right: 5px
-
-.btn.btn-tool
-  &:hover
-    background-color: #333
-  color: $text-color
-
-.list-group
-  border-radius: 0
-  .list-group-item
-    border-right: none
-    border-left: none
-    border-radius: 0
-    padding: 10px 10px
-    h3
-      font-size: 24px
-    h3 small
-      color: #888
-      margin-left: 5px
-    p
-      margin-bottom: 0
-      font-size: 13px
 </style>
 
 <script>

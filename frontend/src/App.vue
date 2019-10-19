@@ -3,12 +3,21 @@
     b-navbar(variant='dark' type='dark')
       b-navbar-brand CineStash
       b-navbar-nav(style='flex-grow: 1')
-        p
+        p {{title}}
       b-navbar-nav.nav
+        b-nav-item(to='/cameras' exact exact-active-class="active") Cameras
         b-nav-item(to='/projects' exact exact-active-class="active") Projects
         b-nav-item(to='/settings' exact exact-active-class="active") Settings
     router-view.main
 </template>
+
+<script>
+export default {
+  data: () => ({
+    title: ''
+  })
+}
+</script>
 
 <style lang="scss">
 html {

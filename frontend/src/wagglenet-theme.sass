@@ -1,0 +1,58 @@
+$text-color: #ddd
+$text-color-highlight: #fff
+$text-color-tame: #999
+
+$bg-color: #222
+$bg-color-highlight: #444
+
+
+body
+    background-color: $bg-color
+    color: $text-color
+
+pre
+    color: $text-color
+    white-space: normal
+
+.noborder
+  padding-left: 0
+  padding-right: 0
+
+.scroll-col
+  height: 100%
+  overflow-y: auto
+
+.splitter
+  border-left: 1px solid rgba(0, 0, 0, 0.125);
+  border-right: 1px solid rgba(0, 0, 0, 0.125);
+
+.btn svg
+  margin-right: 5px
+
+.btn.btn-tool
+  &:hover
+    background-color: #333
+  color: $text-color
+
+.list-group
+  border-radius: 0
+  .list-group-item
+    border-right: none
+    border-left: none
+    border-radius: 0
+    padding: 10px 10px
+    h3
+      font-size: 24px
+    h3 small
+      color: #888
+      margin-left: 5px
+    p
+      margin-bottom: 0
+      font-size: 13px
+
+
+.list-group .list-group-item
+    color: $text-color;
+    background: $bg-color;
+
+

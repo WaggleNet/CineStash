@@ -20,7 +20,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'viewerjs/dist/viewer.css'
 
-import './wagglenet-theme.scss'
+import './wagglenet-theme.sass'
 
 Vue.config.productionTip = false
 
