@@ -6,9 +6,21 @@ import store from './store'
 import BootstrapVue from 'bootstrap-vue'
 import Viewer from 'v-viewer'
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { far } from '@fortawesome/free-regular-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+Vue.component('fa-icon', FontAwesomeIcon)
+library.add(fas)
+library.add(fab)
+library.add(far)
+
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'viewerjs/dist/viewer.css'
+
+import './wagglenet-theme.scss'
 
 Vue.config.productionTip = false
 

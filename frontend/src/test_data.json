@@ -1,0 +1,218 @@
+[
+    {
+     "_id": "NWWTL",
+     "name": "INT-The-Hacking-Lab--ECEB-3066---midnight",
+     "number": 1,
+     "shots": [
+      {
+       "_id": "KECLL",
+       "thumbnails": [
+        "storyboards/Scene-1-INT-The-Hacking-Lab--ECEB-3066---midnight-1-NWWTL/images/board-1-KECLL-posterframe.jpg"
+       ],
+       "notes": "",
+       "angle": "N/A",
+       "dialogue": "",
+       "action": "",
+       "number": "1A"
+      },
+      {
+       "_id": "6CBW2",
+       "thumbnails": [
+        "storyboards/Scene-1-INT-The-Hacking-Lab--ECEB-3066---midnight-1-NWWTL/images/board-2-6CBW2-posterframe.jpg"
+       ],
+       "notes": "",
+       "angle": "N/A",
+       "dialogue": "",
+       "action": "",
+       "number": "2A"
+      }
+     ]
+    },
+    {
+     "_id": "2IOM9",
+     "name": "EXT-The-ECEB-dawn",
+     "number": 2,
+     "shots": [
+      {
+       "_id": "G6C9R",
+       "thumbnails": [
+        "storyboards/Scene-2-EXT-The-ECEB-dawn-2-2IOM9/images/board-1-G6C9R-posterframe.jpg"
+       ],
+       "notes": "Film from the outside.",
+       "angle": "M",
+       "dialogue": "",
+       "action": "The light in a lab suddenly goes down.",
+       "number": "1A"
+      },
+      {
+       "_id": "O2G5G",
+       "thumbnails": [
+        "storyboards/Scene-2-EXT-The-ECEB-dawn-2-2IOM9/images/board-2-O2G5G-posterframe.jpg"
+       ],
+       "notes": "Profile scan of a corridor",
+       "angle": "M",
+       "dialogue": "",
+       "action": "Corridor lights go out one by one.",
+       "number": "2A"
+      },
+      {
+       "_id": "FRKR1",
+       "thumbnails": [
+        "storyboards/Scene-2-EXT-The-ECEB-dawn-2-2IOM9/images/board-3-FRKR1-posterframe.jpg"
+       ],
+       "notes": "Aerial surround; try not to expose the bright parts",
+       "angle": "M",
+       "dialogue": "",
+       "action": "The ECEB powers down; becomes dark",
+       "number": "3A"
+      },
+      {
+       "_id": "EOOB4",
+       "thumbnails": [
+        "storyboards/Scene-2-EXT-The-ECEB-dawn-2-2IOM9/images/board-4-EOOB4-posterframe.jpg"
+       ],
+       "notes": "Profile shot of kitchen; appliances turn off when in sight. Ends with lights-out (dark)",
+       "angle": "MCU",
+       "dialogue": "",
+       "action": "Kitchen light goes down, then appliances break down in smoke",
+       "number": "4A"
+      },
+      {
+       "_id": "UTY2L",
+       "thumbnails": [
+        "storyboards/Scene-2-EXT-The-ECEB-dawn-2-2IOM9/images/board-5-UTY2L-posterframe.jpg"
+       ],
+       "notes": "Aerial survey of the north quad",
+       "angle": "W",
+       "dialogue": "COMMANDER (On the radio) Situation on the 4 o'clock. Got a visual. Repeat. Visual on target.",
+       "action": "Dawn breaks over the campus.",
+       "number": "5A"
+      },
+      {
+       "_id": "P4KYM",
+       "thumbnails": [
+        "storyboards/Scene-2-EXT-The-ECEB-dawn-2-2IOM9/images/board-6-P4KYM-posterframe.jpg"
+       ],
+       "notes": "Aerial CSL -> DSL, slam dunk over Grainger, ends from roof",
+       "angle": "W",
+       "dialogue": "",
+       "action": "Dawn breaks over the campus.",
+       "number": "6A"
+      }
+     ]
+    },
+    {
+     "_id": "9CK26",
+     "name": "EXT-Out-in-the-wild-morning",
+     "number": 3,
+     "shots": [
+      {
+       "_id": "SYX1C",
+       "thumbnails": [
+        "storyboards/Scene-3-EXT-Out-in-the-wild-morning-3-9CK26/images/board-2-SYX1C-posterframe.jpg",
+        "storyboards/Scene-3-EXT-Out-in-the-wild-morning-3-9CK26/images/board-2-2JA83-posterframe.jpg",
+        "storyboards/Scene-3-EXT-Out-in-the-wild-morning-3-9CK26/images/board-3-IYU7C-posterframe.jpg"
+       ],
+       "notes": "Start from the bell tower, cut into the birds-eye view overhead.",
+       "angle": "OH",
+       "dialogue": "",
+       "action": "ROTOR SQUAD members marching down the wilderness in a solid formation. ",
+       "number": "1A"
+      },
+      {
+       "_id": "6NCOS",
+       "thumbnails": [
+        "storyboards/Scene-3-EXT-Out-in-the-wild-morning-3-9CK26/images/board-2-6NCOS-posterframe.jpg",
+        "storyboards/Scene-3-EXT-Out-in-the-wild-morning-3-9CK26/images/board-5-PRE6U-posterframe.jpg",
+        "storyboards/Scene-3-EXT-Out-in-the-wild-morning-3-9CK26/images/board-6-HEIZG-posterframe.jpg"
+       ],
+       "notes": "Waist-level shot of people marching. Focus on the badge and suitcase surround over to the right. Dive into a building sideways to break the image.",
+       "angle": "MCU",
+       "dialogue": "",
+       "action": "ROTOR SQUAD members whipping dust into the air by the footsteps. Firmly held in each member's hand is a toolbox.",
+       "number": "2A"
+      },
+      {
+       "_id": "3KZBP",
+       "thumbnails": [
+        "storyboards/Scene-3-EXT-Out-in-the-wild-morning-3-9CK26/images/board-7-3KZBP-posterframe.jpg",
+        "storyboards/Scene-3-EXT-Out-in-the-wild-morning-3-9CK26/images/board-8-YU47W-posterframe.jpg"
+       ],
+       "notes": "Start from the side of the podium and move in. Try zooming in further than full then pan around",
+       "angle": "MF",
+       "dialogue": "",
+       "action": "Members settle at the foellinger podium. Everyone places the toolbox on the table and opens it.",
+       "number": "3A"
+      },
+      {
+       "_id": "0Q8QR",
+       "thumbnails": [
+        "storyboards/Scene-3-EXT-Out-in-the-wild-morning-3-9CK26/images/board-9-0Q8QR-posterframe.jpg"
+       ],
+       "notes": "Frame over the shoulder FPV at the box being opened.",
+       "angle": "OS",
+       "dialogue": "",
+       "action": "One member opens the box with a sticker on the lid, revealing its content. The content includes WaggleRouter and other appliances.",
+       "number": "4A"
+      },
+      {
+       "_id": "E0EWX",
+       "thumbnails": [
+        "storyboards/Scene-3-EXT-Out-in-the-wild-morning-3-9CK26/images/board-11-E0EWX-posterframe.jpg"
+       ],
+       "notes": "Handover of the laptop",
+       "angle": "MCU",
+       "dialogue": "",
+       "action": "One person hands a laptop to another person. The other person takes the laptop and opens it one hand while also placing it down. (Don't need to reveal what's on the screen).",
+       "number": "5A"
+      },
+      {
+       "_id": "WK1GT",
+       "thumbnails": [
+        "storyboards/Scene-3-EXT-Out-in-the-wild-morning-3-9CK26/images/board-6-WK1GT-posterframe.jpg"
+       ],
+       "notes": "TODO: multi shot",
+       "angle": "N/A",
+       "dialogue": "",
+       "action": "Member 1 - Configures remote\nMember 2 - Takes drone out of the box\nMember 3 - Typing\nMember 4 - Configures car\nMember 5 - Works with the coffee parts",
+       "number": "6A"
+      }
+     ]
+    },
+    {
+     "_id": "OE786",
+     "name": "EXT-At-the-ROTOR-SQUAD-base",
+     "number": 4,
+     "shots": [
+      {
+       "_id": "9FJKZ",
+       "thumbnails": [
+        "storyboards/Scene-4-EXT-At-the-ROTOR-SQUAD-base-4-OE786/images/board-1-9FJKZ-posterframe.jpg"
+       ],
+       "notes": "",
+       "angle": "N/A",
+       "dialogue": "",
+       "action": "",
+       "number": "1A"
+      }
+     ]
+    },
+    {
+     "_id": "S1M27",
+     "name": "EXT-Drones-flying-in-formation-away-from-the-base",
+     "number": 5,
+     "shots": [
+      {
+       "_id": "T8TB6",
+       "thumbnails": [
+        "storyboards/Scene-5-EXT-Drones-flying-in-formation-away-from-the-base-5-S1M27/images/board-1-T8TB6-posterframe.jpg"
+       ],
+       "notes": "",
+       "angle": "N/A",
+       "dialogue": "",
+       "action": "",
+       "number": "1A"
+      }
+     ]
+    }
+   ]
