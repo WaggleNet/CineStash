@@ -504,3 +504,4 @@ dmypy.json
 
 # End of https://www.gitignore.io/api/node,python,pycharm+all
 venv/
+.vscode/
