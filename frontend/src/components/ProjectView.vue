@@ -1,14 +1,48 @@
 <template lang="pug">
 b-container(fluid style='height: 100%')
+  b-modal(
+    v-model='takeModal.open'
+    :title='"Editing Take " + takeModal.data.takeId'
+    @ok='handleTakeSubmit'
+    @cancel='handleTakeCancel'
+    )
+      h5 Camera
+      b-form-select(v-model='takeModal.data.cam' :options='{cam1: "cam1"}')
+      h5 Timecode
+      b-form-input(v-model='takeModal.data.timecode')
+      h5 Notes
+      b-form-input(v-model='takeModal.data.notes')
+      h5 Other info
+      .form-group
+        b-button(
+          pill
+          :pressed='takeModal.data.meta.ng'
+          variant='outline-danger'
+          @click='takeModal.data.meta.ng = !takeModal.data.meta.ng'
+        ) NG
+        b-button(
+          pill
+          :pressed = 'takeModal.data.meta.mos'
+          variant='outline-success'
+          @click='takeModal.data.meta.mos = !takeModal.data.meta.mos'
+        ) Mute
   b-row(style='height: 100%')
     b-col(:cols="2").noborder.scroll-col
       b-list-group
-        b-list-group-item(v-for='scene in scenes').selector
+        b-list-group-item(
+          v-for='scene, idx in scenes'
+          :class='{active: idx == sceneIdx}'
+          @click='sceneIdx = idx'
+          ).selector
           h3 {{scene.number}}
           p {{scene.name}}
     b-col(:cols="3").noborder.scroll-col.splitter
       b-list-group
-        b-list-group-item(v-for='shot in selectedScene.shots').selector
+        b-list-group-item(
+          v-for='shot, idx in selectedScene.shots',
+          :class='{active: idx == shotIdx}'
+          @click='shotIdx = idx'
+          ).selector
           h3 {{shot.number}}
             small {{shot.angle}}
           p {{shot.notes}}
@@ -39,28 +73,29 @@ b-container(fluid style='height: 100%')
       .note
         h3 Takes
         .take-list
-          .take
+          .take(@click='handleTakeCreate')
             .take-thumbnail
               fa-icon(icon='plus')
             .take-big-actions
-              h3 New shot
-          .take
+              h3 New take
+          .take(v-for='i in selectedShot.takes')
             .take-thumbnail
               img(src='https://image.shutterstock.com/image-photo/mountains-during-sunset-beautiful-natural-260nw-407021107.jpg')
             .take-metadata
-              h3 Take 1
-                b-badge(variant='danger') NG
-                b-badge(variant='primary') Virtual
-              p Cam: 1
-              p TC 00:46:21:05
+              h3 Take {{i.takeId}}
+                b-badge(variant='danger' v-if='i.meta.ng') NG
+                b-badge(variant='primary' v-if='i.meta.virtual') Virtual
+                b-badge(variant='success' v-if='i.meta.mos') Mute
+              p Cam: {{i.cam}}
+              p TC {{i.timecode}}
             .take-actions
               b-button(variant='tool')
                 fa-icon(icon='sync')
                 | Synchronize
-              b-button(variant='tool')
+              b-button(variant='tool' @click='handleTakeEdit(i)')
                 fa-icon(icon='edit')
                 | Edit
-              b-button(variant='tool')
+              b-button(variant='tool' @click='handleTakeDelete(i)')
                 fa-icon(icon='trash')
                 | Delete
 
@@ -147,16 +182,82 @@ b-container(fluid style='height: 100%')
 
 <script>
 import mockData from '@/test_data.json'
+import Vue from 'vue'
+import _ from 'lodash'
+
+const emptyTake = {
+  takeId: 1,
+  meta: {
+    ng: false,
+    virtual: true,
+    mos: false
+  },
+  cam: '',
+  timecode: '0:0:0:0'
+};
+
 export default {
   data: () => ({
-    scenes: mockData
+    scenes: mockData,
+    sceneIdx: 0,
+    shotIdx: 0,
+    takeModal: {
+      open: false,
+      data: emptyTake
+    }
   }),
   computed: {
     selectedScene () {
-      return this.$data.scenes[2];
+      return this.$data.scenes[this.$data.sceneIdx]
     },
     selectedShot () {
-      return this.$data.scenes[2].shots[2];
+      return this.selectedScene.shots[this.$data.shotIdx]
+    }
+  },
+  methods: {
+    handleTakeCreate () {
+      // Determine the maximum take number
+      let takeId = 1;
+      if (!this.selectedShot.takes) {
+        this.selectedShot.takes = []
+      } else if (this.selectedShot.takes.length) {
+        takeId = _.max(this.selectedShot.takes, 'takeId').takeId + 1
+      }
+      // Create the take
+      const data = _.cloneDeep(emptyTake)
+      data.takeId = takeId
+      this.$data.takeModal.data = data
+      this.$data.takeModal.open = true
+    },
+    handleTakeEdit (take) {
+      this.$data.takeModal.data = _.cloneDeep(take)
+      this.$data.takeModal.open = true
+    },
+    handleTakeDelete (take) {
+      this.$swal({
+        text: 'Really delete this scene? You cannot change it back',
+        type: 'warning',
+        showCancelButton: true
+        }).then(res => {
+        if (res.value) {
+          this.selectedShot.takes = this.selectedShot.takes.filter(i => i.takeId !== take.takeId);
+          this.$forceUpdate()
+          console.log(this.selectedShot.takes)
+        }
+      })
+    },
+    handleTakeSubmit () {
+      const take = this.$data.takeModal.data
+      for (let idx = 0; idx < this.selectedShot.takes.length; idx++) {
+        if (this.selectedShot.takes[idx].takeId == take.takeId) {
+          this.selectedShot.takes[idx] = take
+          return
+        }
+      }
+      this.selectedShot.takes.push(take)
+      this.$forceUpdate()
+    },
+    handleTakeCancel () {
     }
   }
 }

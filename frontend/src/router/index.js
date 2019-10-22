@@ -7,6 +7,7 @@ import SettingsPage from '../components/Settings.vue'
 import CamerasPage from '../components/Cameras.vue'
 
 Vue.use(VueRouter)
+import 'sweetalert2/dist/sweetalert2.min.css'
 
 const routes = [
   {

@@ -4,6 +4,7 @@ import './registerServiceWorker'
 import router from './router'
 import store from './store'
 import BootstrapVue from 'bootstrap-vue'
+import SweatAlert2 from 'vue-sweetalert2'
 import Viewer from 'v-viewer'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -26,6 +27,7 @@ Vue.config.productionTip = false
 
 Vue.use(BootstrapVue)
 Vue.use(Viewer)
+Vue.use(SweatAlert2)
 
 new Vue({
   router,
