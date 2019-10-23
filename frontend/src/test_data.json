@@ -5,26 +5,97 @@
      "number": 1,
      "shots": [
       {
-       "_id": "KECLL",
+       "_id": "EQWZ2",
        "thumbnails": [
-        "storyboards/Scene-1-INT-The-Hacking-Lab--ECEB-3066---midnight-1-NWWTL/images/board-1-KECLL-posterframe.jpg"
+        "storyboards/Scene-1-INT-The-Hacking-Lab--ECEB-3066---midnight-1-NWWTL/images/board-2-EQWZ2-posterframe.jpg",
+        "storyboards/Scene-1-INT-The-Hacking-Lab--ECEB-3066---midnight-1-NWWTL/images/board-3-0DQZ6-posterframe.jpg"
+       ],
+       "notes": "Start from back and dolly zoom back to introduce Felix's -surroundings",
+       "angle": "M",
+       "dialogue": "",
+       "action": "Felix is fumbling with something. In front of him, two monitors are rapidly flashing with texts, plots and strange-looking schematics.",
+       "number": "1A"
+      },
+      {
+       "_id": "YD9XF",
+       "thumbnails": [
+        "storyboards/Scene-1-INT-The-Hacking-Lab--ECEB-3066---midnight-1-NWWTL/images/board-4-YD9XF-posterframe.jpg",
+        "storyboards/Scene-1-INT-The-Hacking-Lab--ECEB-3066---midnight-1-NWWTL/images/board-5-QT55Q-posterframe.jpg"
+       ],
+       "notes": "Profile the desk from top from left to right",
+       "angle": "OH",
+       "dialogue": "",
+       "action": "Felix is fumbling with a mess of circuits on a breadboard - the complexity is daunting but Felix clearly knows what he's doing. Felix reaches for the coffee cup (when instructed), which is very empty except there are a few drops left.",
+       "number": "2A"
+      },
+      {
+       "_id": "R50NL",
+       "thumbnails": [
+        "storyboards/Scene-1-INT-The-Hacking-Lab--ECEB-3066---midnight-1-NWWTL/images/board-6-R50NL-posterframe.jpg"
+       ],
+       "notes": " ",
+       "angle": "CU",
+       "dialogue": "",
+       "action": "Felix raises his coffee cup to drink. Half way in the air, his hand stopped. He realizes it's empty.",
+       "number": "3A"
+      },
+      {
+       "_id": "2GOY6",
+       "thumbnails": [
+        "storyboards/Scene-1-INT-The-Hacking-Lab--ECEB-3066---midnight-1-NWWTL/images/board-7-2GOY6-posterframe.jpg"
+       ],
+       "notes": "The cup being dropped to the table.",
+       "angle": "ECU",
+       "dialogue": "",
+       "action": "Felix quickly slams his cup onto the desk and resumes work. Felix's fingers twitched a little - and connected a wire where it should not have been. A spark appears from the circuit.",
+       "number": "4A"
+      },
+      {
+       "_id": "WBZRR",
+       "thumbnails": [
+        "storyboards/Scene-1-INT-The-Hacking-Lab--ECEB-3066---midnight-1-NWWTL/images/board-8-WBZRR-posterframe.jpg"
+       ],
+       "notes": "",
+       "angle": "N/A",
+       "dialogue": "",
+       "action": " The circuit explodes - releasing sparks, smokes along with a sharp ",
+       "number": "5A"
+      }
+     ]
+    },
+    {
+     "_id": "2OLU9",
+     "name": "EXT-Back-at-the-base",
+     "number": 10,
+     "shots": [
+      {
+       "_id": "A1M9C",
+       "thumbnails": [
+        "storyboards/Scene-10-EXT-Back-at-the-base-10-2OLU9/images/board-1-A1M9C-posterframe.jpg"
        ],
        "notes": "",
        "angle": "N/A",
        "dialogue": "",
        "action": "",
        "number": "1A"
-      },
+      }
+     ]
+    },
+    {
+     "_id": "FE3Y7",
+     "name": "EXT-In-front-of-the-ECEB",
+     "number": 11,
+     "shots": [
       {
-       "_id": "6CBW2",
+       "_id": "W1YKM",
        "thumbnails": [
-        "storyboards/Scene-1-INT-The-Hacking-Lab--ECEB-3066---midnight-1-NWWTL/images/board-2-6CBW2-posterframe.jpg"
+        "storyboards/Scene-11-EXT-In-front-of-the-ECEB-11-FE3Y7/images/board-1-W1YKM-posterframe.jpg"
        ],
        "notes": "",
        "angle": "N/A",
        "dialogue": "",
        "action": "",
-       "number": "2A"
+       "number": "1A"
       }
      ]
     },
@@ -67,9 +138,9 @@
        "number": "3A"
       },
       {
-       "_id": "EOOB4",
+       "_id": "HV05V",
        "thumbnails": [
-        "storyboards/Scene-2-EXT-The-ECEB-dawn-2-2IOM9/images/board-4-EOOB4-posterframe.jpg"
+        "storyboards/Scene-2-EXT-The-ECEB-dawn-2-2IOM9/images/board-5-HV05V-posterframe.jpg"
        ],
        "notes": "Profile shot of kitchen; appliances turn off when in sight. Ends with lights-out (dark)",
        "angle": "MCU",
@@ -78,9 +149,9 @@
        "number": "4A"
       },
       {
-       "_id": "UTY2L",
+       "_id": "TZNYF",
        "thumbnails": [
-        "storyboards/Scene-2-EXT-The-ECEB-dawn-2-2IOM9/images/board-5-UTY2L-posterframe.jpg"
+        "storyboards/Scene-2-EXT-The-ECEB-dawn-2-2IOM9/images/board-6-TZNYF-posterframe.jpg"
        ],
        "notes": "Aerial survey of the north quad",
        "angle": "W",
@@ -191,9 +262,119 @@
        ],
        "notes": "",
        "angle": "N/A",
-       "dialogue": "",
+       "dialogue": "LAPTOP ONSCREEN DISPLAY: Connecting to WaggleNet...",
        "action": "",
        "number": "1A"
+      },
+      {
+       "_id": "TIRVQ",
+       "thumbnails": [
+        "storyboards/Scene-4-EXT-At-the-ROTOR-SQUAD-base-4-OE786/images/board-2-TIRVQ-posterframe.jpg"
+       ],
+       "notes": "",
+       "angle": "N/A",
+       "dialogue": "Suggested UI on the other laptops: - https://github.com/GitSquared/edex-ui with https://github.com/abishekvashok/cmatrix - Scrolling command line",
+       "action": "The crew quickly plugs in the Router into USB and momentarily the prompt disappears and the main UI appears on the laptop. We refer to the main UI as  the program .",
+       "number": "2A"
+      },
+      {
+       "_id": "AE254",
+       "thumbnails": [
+        "storyboards/Scene-4-EXT-At-the-ROTOR-SQUAD-base-4-OE786/images/board-2-AE254-posterframe.jpg"
+       ],
+       "notes": "",
+       "angle": "N/A",
+       "dialogue": "",
+       "action": "Group A plugs batteries into each rover, and it is instantly displayed onto the program . ",
+       "number": "3A"
+      },
+      {
+       "_id": "EEFO4",
+       "thumbnails": [
+        "storyboards/Scene-4-EXT-At-the-ROTOR-SQUAD-base-4-OE786/images/board-4-EEFO4-posterframe.jpg"
+       ],
+       "notes": "",
+       "angle": "N/A",
+       "dialogue": "",
+       "action": "Plots of the battery level and temperature of the systems begin scrolling in the lower part of  the program .",
+       "number": "4A"
+      },
+      {
+       "_id": "SOFHY",
+       "thumbnails": [
+        "storyboards/Scene-4-EXT-At-the-ROTOR-SQUAD-base-4-OE786/images/board-6-SOFHY-posterframe.jpg"
+       ],
+       "notes": "",
+       "angle": "N/A",
+       "dialogue": "",
+       "action": "Group A attaches the payload parts onto the rover.",
+       "number": "5A"
+      },
+      {
+       "_id": "I4DP2",
+       "thumbnails": [
+        "storyboards/Scene-4-EXT-At-the-ROTOR-SQUAD-base-4-OE786/images/board-5-I4DP2-posterframe.jpg"
+       ],
+       "notes": "",
+       "angle": "N/A",
+       "dialogue": "",
+       "action": "Group B starts powering up the drone on the left side of the laptop, and afterwards, begins helping Group A attach the rover to the drone's airdropping adapter.",
+       "number": "6A"
+      },
+      {
+       "_id": "CF6L8",
+       "thumbnails": [
+        "storyboards/Scene-4-EXT-At-the-ROTOR-SQUAD-base-4-OE786/images/board-7-CF6L8-posterframe.jpg"
+       ],
+       "notes": "",
+       "angle": "N/A",
+       "dialogue": "ONSCREEN DISPLAY MESSAGE: Payload attached.",
+       "action": "",
+       "number": "7A"
+      },
+      {
+       "_id": "YNY7J",
+       "thumbnails": [
+        "storyboards/Scene-4-EXT-At-the-ROTOR-SQUAD-base-4-OE786/images/board-8-YNY7J-posterframe.jpg"
+       ],
+       "notes": "Side profile shot.",
+       "angle": "M",
+       "dialogue": "",
+       "action": "One of the member grabs the drone controller and flies the drone upward and forward, slightly beyond their face level. Then it's a full-stick forward.",
+       "number": "8A"
+      },
+      {
+       "_id": "IWUWG",
+       "thumbnails": [
+        "storyboards/Scene-4-EXT-At-the-ROTOR-SQUAD-base-4-OE786/images/board-9-IWUWG-posterframe.jpg"
+       ],
+       "notes": "",
+       "angle": "N/A",
+       "dialogue": "",
+       "action": "The program displays distance of the drone from base and its location on a map. ",
+       "number": "9A"
+      },
+      {
+       "_id": "BXROF",
+       "thumbnails": [
+        "storyboards/Scene-4-EXT-At-the-ROTOR-SQUAD-base-4-OE786/images/board-10-BXROF-posterframe.jpg"
+       ],
+       "notes": "TODO: Film drones one by one and try stitching the images.",
+       "angle": "N/A",
+       "dialogue": "",
+       "action": "Once the first one's underway, multiple drones swarm forward, each carrying a rover except one of them - presumably acting as a communication relay.",
+       "number": "10A"
+      },
+      {
+       "_id": "08H9C",
+       "thumbnails": [
+        "storyboards/Scene-4-EXT-At-the-ROTOR-SQUAD-base-4-OE786/images/board-11-08H9C-posterframe.jpg"
+       ],
+       "notes": "",
+       "angle": "N/A",
+       "dialogue": "DISPLAYED ON THE PROGRAM: A map of the drones forming a small topology over the map, with the relaying drone highlighted by an animated circular ripple.",
+       "action": "",
+       "number": "11A"
       }
      ]
     },
@@ -211,6 +392,80 @@
        "angle": "N/A",
        "dialogue": "",
        "action": "",
+       "number": "1A"
+      }
+     ]
+    },
+    {
+     "_id": "BSZZ2",
+     "name": "EXT-Drones-flying-in-formation-over-the-Engineeri",
+     "number": 6,
+     "shots": [
+      {
+       "_id": "ABKLL",
+       "thumbnails": [
+        "storyboards/Scene-6-EXT-Drones-flying-in-formation-over-the-Engineeri-6-BSZZ2/images/board-1-ABKLL-posterframe.jpg"
+       ],
+       "notes": "EXT. Drones flying in formation over the Engineering Quad.\nundefined",
+       "angle": "N/A",
+       "dialogue": "",
+       "action": "",
+       "number": "1A"
+      }
+     ]
+    },
+    {
+     "_id": "YCVK9",
+     "name": "EXT-Deploying-the-rovers",
+     "number": 7,
+     "shots": [
+      {
+       "_id": "0YZXH",
+       "thumbnails": [
+        "storyboards/Scene-7-EXT-Deploying-the-rovers-7-YCVK9/images/board-1-0YZXH-posterframe.jpg",
+        "storyboards/Scene-7-EXT-Deploying-the-rovers-7-YCVK9/images/board-2-O8SCZ-posterframe.jpg"
+       ],
+       "notes": "",
+       "angle": "N/A",
+       "dialogue": "",
+       "action": "The view zooms in towards one of the drones. It lowers itself significantly over a glide path and drops the rover.",
+       "number": "1A"
+      }
+     ]
+    },
+    {
+     "_id": "E51NU",
+     "name": "INT-At-a-lab-in-the-ECEB-Introducing-the-Strike-",
+     "number": 8,
+     "shots": [
+      {
+       "_id": "H5YSW",
+       "thumbnails": [
+        "storyboards/Scene-8-INT-At-a-lab-in-the-ECEB-Introducing-the-Strike--8-E51NU/images/board-1-H5YSW-posterframe.jpg",
+        "storyboards/Scene-8-INT-At-a-lab-in-the-ECEB-Introducing-the-Strike--8-E51NU/images/board-2-1QGO9-posterframe.jpg"
+       ],
+       "notes": "",
+       "angle": "N/A",
+       "dialogue": "",
+       "action": "Inside the lab it is all dark. A desklamp is turned on, revealing a long table. A stack of lunch boxes are broughted onto the end of a long table; and a person starts unstacking them, while others follow and unpack behind. One person grabs a Windows tablet and strides out of the lab, raising the tablet while on the move.",
+       "number": "1A"
+      }
+     ]
+    },
+    {
+     "_id": "AJHYA",
+     "name": "EXT-In-front-of-the-ECEB",
+     "number": 9,
+     "shots": [
+      {
+       "_id": "H80AX",
+       "thumbnails": [
+        "storyboards/Scene-9-EXT-In-front-of-the-ECEB-9-AJHYA/images/board-1-H80AX-posterframe.jpg"
+       ],
+       "notes": "",
+       "angle": "N/A",
+       "dialogue": "",
+       "action": "The first rover slowly descends towards the ground. The strike team begins working out of the ECEB in small clusters, all staring at the rover as it is about to touch down.",
        "number": "1A"
       }
      ]
